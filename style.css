@@ -4,6 +4,7 @@ body {
     margin: 0%;
     background-color: #1d2b3a;
     position: relative;
+    overflow: hidden;
 }
 
 @font-face {
@@ -58,6 +59,7 @@ h1 {
 .text-section {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.6rem;
+    font-weight: 600;
     color: white;
     margin-left: 200px;
     margin-top: 100px;
@@ -96,7 +98,11 @@ h1 {
 
 input {
     width: 300px;
+    padding: 8px 7px;
+    border: 1px solid #000000;
+    border-radius: 4px;
 }
+
 
 .create-button {
     margin-left: 40px;
@@ -153,4 +159,18 @@ a {
 
 a:link {
     text-decoration: none;
+}
+
+
+.credits {
+    margin: 0%;
+    position: absolute;
+    bottom: 20px;
+    left: 240px;
+}
+
+
+label {
+    font-size: 1rem;
+    font-weight: 500;
 }
